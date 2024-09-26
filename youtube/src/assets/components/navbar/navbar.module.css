@@ -1,0 +1,39 @@
+.mainContainer{
+    display: flex;
+    border: 2px solid black;
+    justify-content: space-between;
+    padding: 20px 1rem;
+    background-color: rgb(43, 21, 64);
+    align-items: center;
+}
+.mainContainer div ul {
+    display: flex;
+    flex-direction: row;
+    gap:2rem;
+    list-style: none;
+    align-items: center;
+
+}
+.mainContainer div ul input{
+
+    width: 25rem;
+    padding:10px;
+    border-radius:30px;
+}
+.mainContainer div ul li a{
+    text-decoration: none;
+    font-style: none;
+    color: rgb(50, 144, 226);
+}
+
+.mainContainer div ul li a i{
+
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.mainContainer div ul li a i:hover{
+
+    color: red;
+   
+}

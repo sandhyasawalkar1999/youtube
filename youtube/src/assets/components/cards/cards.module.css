@@ -1,0 +1,45 @@
+.container{
+    padding: 5px 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cards{
+    border: 2px solid black;
+}
+.MainContainer{
+    flex-wrap: wrap;
+    width: 25vw;
+    height: 35vh;
+    margin: 10px;
+
+    /* border: 2px solid red; */
+}
+.cardContainer img{
+  width: 22rem;
+  height: 11rem;
+  border-radius: 10px;
+}
+.TitleContainer{
+    display: flex;
+}
+.TitleContainer .LogoContainer img{
+
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    margin: 10px;
+}
+.bold{
+    font-weight: bold;
+}
+.descContainer{
+    margin: 10px;
+}
+.descContainer a{
+    text-decoration: none;
+    color: black;
+}
+.gray{
+    color: gray;
+}
